@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +22,7 @@ a{
   .header__content nav{
   
     width: 100%;
-    max-width: 1024px;
+    max-width: 1200px;
     height: 104px;
     margin: 0 auto;
     display: flex;
@@ -53,8 +55,11 @@ a{
  /*Section para ajustar a imagem*/
 
   background: no-repeat 50%  url('https://1.bp.blogspot.com/-eM6p_6L76ME/YNFx8PFY-wI/AAAAAAABBgw/ZUBwknVFWacykbqaYjqniEkK8VUKKJASACLcBGAsYHQ/s2560/Estrada%2Bna%2BFloresta%2BHD%2BWallpaper.jpg');
-  margin: 0 auto;
+  margin: 0;
+  background-size: cover;
+  width: 100%;
 }
+
 .section__content{
  /*Section para ajustar o conteúdo em relação à imagem*/
   display: flex;
@@ -96,4 +101,54 @@ a{
 
 .btn__buy:hover{
   opacity: 1;
+}
+
+.section__drone{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.section__drone h3 {
+
+font-size: 48px;
+font-weight: bold;
+text-align: center;
+margin-top: 4rem;
+margin-bottom: 3rem;
+color: #703ebb;
+
+}
+
+.cards__content{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 6rem;
+  gap: 4rem;
+}
+
+
+.card__title{
+  font-size: 18px;
+  font-weight: bold;
+  color: #703ebb;
+  margin-bottom: 1rem;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.card__title img{
+  margin-bottom: 1.6rem;
+  width: 60px;
+  height: 60px;
+}
+
+.card__text p {
+  text-align: center;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-weight:400;
+  text-align: center;
 }
